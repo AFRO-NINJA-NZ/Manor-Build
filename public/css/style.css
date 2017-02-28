@@ -1,0 +1,77 @@
+* {
+    margin:0;
+    padding:0;
+    font-family:'Raleway', sans-serif
+}
+
+hr {
+    background-color:#212121;
+    height:1px;
+    border:none
+}
+
+@media (max-width: 1024px) {
+    .desktop{
+        display:none !important
+    }
+}
+
+@media (min-width: 1024px) {
+    .mobile{
+        display:none !important
+    }
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+}
+
+.section-1 {
+    text-align: left;
+    background-image: url("Field.jpg");
+    max-width: 100%;
+    height: auto;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.section-2 {
+    text-align: left;
+    padding-left: 51%;
+    padding-right: 5%;
+}
+
+.section-3 {
+    text-align: right;
+    padding-right: 51%;
+    padding-left: 5%;
+}
+
+footer {
+    padding-left: 10%;
+}
+
+.input {
+
+}
+
+input[type="text"] {
+  display: block;
+  margin: 0;
+  width: 100%;
+  font-family: sans-serif;
+  font-size: 18px;
+  box-shadow: none;
+  border-radius: none;
+  padding: 10px;
+  border: solid 1px #dcdcdc;
+  transition: box-shadow 0.3s, border 0.3s;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border: solid 1px #707070;
+  box-shadow: 0 0 5px 1px #969696;
+}
